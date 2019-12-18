@@ -23,14 +23,8 @@ bot.on("ready", async () => {
     
 });
 bot.on("message", message => {
-    if (message.content === "hi") {
-        message.channel.send("Hello!")
-    }
-    if (message.content === "flvurry") {
-        message.channel.send("flvurry is the coolest person ever!!! :me:");
-    }
-    if (message.content === "ping") {
-        message.reply("Pong!");
+    if (message.content === "o7") {
+        message.channel.send("o7")
     }
 
 bot.login(process.env.BOT_TOKEN);
